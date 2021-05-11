@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    <title>Taylor Bowen</title>
+</head>
+
+<body>
+<div class="container">
+
+<!-- nav bar -->
+<div class="about">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-transparent">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#aboutHead">About</a>
+                    <a class="nav-link" href="#work">Work</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- landing -->
+
+        <h1 id="name">TAYLOR<br>BOWEN</h1>
+        <h2 id="subhead">Junior Developer</h2>
+
+<!-- about me section -->
+
+        <h2 id="aboutHead">About</h2>
+        <div id="aboutInfo">
+            <p id="aboutP">
+                Hey there!<br>
+                <br>
+                My name is Taylor Bowen, and I am currently a Technology Specialist and educator based in the Midwest. I love hiking, sewing, and scuba diving.<br>
+                <br>
+                After college, I spent several years working in film and theater costuming before diving into the world of technology. Since then, I have had the opportunity to develop and support technology programs at schools locally and abroad.<br>
+                <br>
+                After earning a masters degree in Educational Technology, I decided to continue my education through <a href="https://elevenfifty.org/" target="_blank">Eleven Fifty Academy</a>’s intensive Web Development program. Check out some of my work below!
+            </p>
+            <a href="../Portfolio/assets/portfolioresume.pdf" target="_blank" download><button type="button" class="btn btn-outline-dark btn-md" id="resumeButton">Download Resume</button></a>
+        </div>
+        <img src="../Portfolio/assets/portfoliopic.jpg" class="column" id="pic">
+
+<!-- cards -->
+    
+    <h2 id="work">Recent Work</h2>
+    </div>
+    <div id='work'>
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 5%;">
+            <div class="col">
+                <div class="card">
+                    <p><a href="https://codepen.io/tabowen6/pen/bGgVarX" target="_blank"><img src="../Portfolio/assets/csscreature.png"
+                    class="cardImg" class="card-img-top" alt="..."></a></p>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS Creature</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <p><a href="https://tabowen6.github.io/" target="blank"><img src="../Portfolio/assets/staticlayout.png"
+                    class="cardImg" class="card-img-top" alt="..."></a></p>
+                    <div class="card-body">
+                        <h5 class="card-title">Static Layout Page</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        <div class="col">
+            <div class="card">
+                <p><a href="https://cocktail-api-e3883.web.app/" target="_blank"><img src="../Portfolio/assets/api1.png"
+                    class="cardImg" class="card-img-top" alt="..."></a></p>
+                <div class="card-body">
+                    <h5 class="card-title">Cocktail Generator App</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <p><a href="https://costars-api.web.app/" target="_blank"><img src="../Portfolio/assets/api2.png"
+                    class="cardImg" class="card-img-top" alt="..."></a></p>
+                <div class="card-body">
+                    <h5 class="card-title">Costars App</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" id="tbd">
+                <p><img src="../Portfolio/assets/questionblock.png"
+                    class="cardImg" class="card-img-top" alt="..."></a></p>
+                <div class="card-body">
+                    <h5 class="card-title">Blue Badge: TBD</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+            <div class="col">
+                <div class="card" id="tbd">
+                    <p><img src="../Portfolio/assets/questionblock.png"
+                    class="cardImg" class="card-img-top" alt="..."></a></p>
+                    <div class="card-body">
+                        <h5 class="card-title">Red Badge: TBD</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- formspree -->
+
+    <div id='contact'> 
+        <h2>Get in Touch</h2>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xleaeoge" method="post">
+            <h5 id="message">Want to connect?<br>Send me a message!</h5><br>
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Name</label><br>
+                <input type="text" name="name" id="full-name" required=""><br>
+                <label for="email-address">Email Address</label><br>
+                <input type="email" name="_replyto" id="email-address" required=""><br>
+                <label for="message">Message</label><br>
+                <textarea rows="5" name="message" id="message" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit" id="submit" class="btn btn-outline-dark btn-md">
+        </form>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<footer>
+        <a href="https://www.linkedin.com/in/taylorrosebowen/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></a>
+        <a href="https://github.com/tabowen6" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg></a>
+    <br>
+    <br>© 2021 Taylor Bowen</footer>
+</body>
+</html>

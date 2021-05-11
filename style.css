@@ -1,0 +1,193 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;400&family=Montserrat&family=Syncopate:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+    }
+/* nav */
+nav {
+    float: right;
+    grid-area: nav;
+}
+.nav-link {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0,0,0,.9) !important;
+
+}
+.nav-link:hover {
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+/* fonts */
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #dcff79;
+}
+h2 {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 400;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* body */
+body {
+    background: url('assets/bluesky.jpeg');
+    /* background-repeat: no-repeat; */
+}
+
+/* landing/about */
+.about {
+    display: grid;
+    grid-template-areas:
+    ". . nav"
+    "name name ."
+    "subhead . ."
+    "about . ."
+    "aboutInfo aboutInfo pic"
+    "work . .";
+}
+#name {
+    grid-area: name;
+    margin-top: 200px;
+    margin-bottom: 15px;
+}
+#subhead {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 200;
+    color:black;
+    grid-area: subhead;
+    display: table;
+    margin: 0px auto 200px 0px;
+    background-color: #cfb9ff;
+    padding: 3px;
+}
+#aboutHead {
+    grid-area: about;
+    margin: 0px 0px 50px 0px;
+}
+#aboutInfo {
+    grid-area: aboutInfo;
+}
+#aboutP {
+    display: table;
+    margin: 0px auto 0px 0px;
+    grid-area: aboutP;
+    background-color: #dcff79;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    padding: 20px 20px 30px 20px;
+    max-width: 75%;
+    transition: transform .4s;
+}
+#aboutP:hover {
+    transform: scale(1.04);
+}
+a {
+    text-decoration: none;
+    color: #2554C7;
+}
+a:hover {
+    text-decoration: none;
+    color: #15317E;
+}
+#resumeButton {
+    margin: 30px 0px 0px 28% !important;
+    font-family: 'Montserrat', sans-serif;
+}
+#pic {
+    width: auto;
+    height: 60%;
+    opacity: 0.9;
+    border: 1px solid black;
+    box-shadow: 20px 20px black;
+    grid-area: pic;
+    transition: transform .4s;
+}
+#pic:hover {
+    transform: scale(1.04);
+}
+#work {
+    grid-area: work;
+}
+
+/* cards */
+.card {
+    border: 1px solid black;
+    box-shadow: 30px 30px #cfb9ff;
+    border-radius: 0px;
+    width: 75%;
+    height: auto;
+    margin: 10px auto 80px auto;
+    transition: transform .4s;
+}
+.card:hover {
+    transform: scale(1.04);
+}
+.cardImg {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card-body {
+    padding: 0px 0px 8px 0px;
+}
+#tbd {
+    opacity: 0.9;
+    filter: grayscale(100%)
+}
+/* form */
+form {
+    background-color: #dcff79;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    border: 1px solid black;
+    box-shadow: 20px 20px black;
+    padding: 30px 50px;
+    margin: 70px auto 0px;
+    font-family: 'Montserrat', sans-serif;
+    display: table;
+    text-align: center;
+    transition: transform .4s;
+}
+form:hover {
+    transform: scale(1.04);
+}
+input {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #F8F8F8;
+}
+textarea {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #F8F8F8;
+}
+#submit {
+    margin: 10px;
+}
+
+
+/* footer */
+footer {
+    /* background-color: #cfb9ff; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 175px 0px 10px 0px;
+    font-size: 18px;
+}
+svg {
+    color: black;
+    margin: 10px 30px;
+}
+svg:hover {
+    color: #cfb9ff;
+}
