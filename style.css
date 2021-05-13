@@ -41,7 +41,10 @@ p {
 /* body */
 body {
     background: url('assets/bluesky.jpeg');
-    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* landing/about */
